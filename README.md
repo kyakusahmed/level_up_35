@@ -1,2 +1,2 @@
 # level_up_35
-Andela level up project
+Andela 35 level up project
