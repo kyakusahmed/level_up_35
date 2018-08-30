@@ -62,22 +62,27 @@ body {
 
 .container{
     float: auto;
-    background-color: white ;
-    padding: 30px;
+    background-color: #ffffff;
+    padding: 50px;
     width: auto;
     margin-top: 0px;
     height: auto;
+    margin-left: 0px;
+    color:  #4CAF50;
 }
 
 .col-md-4{
     background-image: url(images/img.jpg);
     background-size: cover;
     float: right;
-    margin-right: 40px;
-    width: 600px;
+    margin-right: 0px ;
+    width: 480px;
     height: auto;
-    padding: 5px;
-    border-radius: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+
 }
 
 input[type=text] {
@@ -86,6 +91,23 @@ input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+    margin-left: 0px;
+}
+
+.container.h2{
+    color: #4CAF50;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
 }
 
 
+@media screen and (max-width: 600px) {
+    .col-md-4, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
