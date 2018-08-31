@@ -1,19 +1,19 @@
-Lule Herman
-Edmond Musiitwa
-ERIC EBULU
-Douglas Kato
-Kayabula Alex Joseph
-Jolly Karungi 
-Christopher Kaggwa
-Katusiime Joel
-Manzede Benard
-orone faith
-Rubarema sam
-kyakulumbye ahmad
-Mutesasira Moses
-Kica Ronald Okello
-Michael Robert Wali
-Mulondo Moses
+Lule Herman,ORD
+Edmond Musiitwa,ORD
+ERIC EBULU,ORD
+Douglas Kato,ORD
+Kayabula Alex Joseph,ORD
+Jolly Karungi,ORD
+Christopher Kaggwa,ORD
+Katusiime Joel,ORD
+Manzede Benard,ORD
+orone faith,ORD
+Rubarema sam,ORD
+kyakulumbye ahmad,ORD
+Mutesasira Moses,ORD
+Kica Ronald Okello,ORD
+Michael Robert Wali,ORD
+Mulondo Moses,ORD
 
 
 
