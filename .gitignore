@@ -4,4 +4,5 @@ tests_/__pycache__/test.cpython-37.pyc
 tests_/__pycache__/signup.cpython-37.pyc
 gitignore/*
 tests_/
+venv/*
 
