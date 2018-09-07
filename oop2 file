@@ -1,0 +1,90 @@
+
+
+class Person:
+
+    def __init__(self, name, email, address):
+        self.name = name
+        self.email = email
+        self.address = address
+
+    
+
+    def description(self):
+        info = {
+            ahmad.name : Ahmad,
+            ahmad.email : kyakuluahmad@gmail.com,
+            ahmad.address : kampala
+        }
+
+        print("{} is {} years old and he lives in {}".format(self.name, self.age, self.address))
+
+
+    
+    def personality(self,talkative):
+        return "{} is a very {} person".format(self.name,talkative)
+
+
+class User(Person):
+
+    def __init__(self, name, email, password):
+        super().__init__(name, email, address)
+        self.name = name
+        self.email = email
+        self.password = password
+        
+
+    def description(self):
+        return "{} with {} has this {} to login".format(self.name,self.email,self.password)
+
+
+    def remove_one(self):
+        pass
+
+
+
+
+
+class Guestlist(User):
+    def __init__(self, users = []):
+        self.users = users
+        super().__init__(name, email, password)
+        
+
+
+    def add_user(self,name,email,password):
+            
+        user = {
+            "name": username,
+            "email": email,
+            "password": password
+        }
+        self.users.append(user)
+        return self.user
+     
+        
+        def get_user(self,username):
+
+            for user in self.users:
+                if user['username'] == username:
+                    return user
+                return None
+        
+        
+        def remove_user(self,password):
+            
+            for user in self.users:
+                if user['password'] == password:
+                    self.users.remove(user)
+                    
+
+        
+        
+        def return_All_users(self):
+            return self.users
+
+        
+        def search_user(self, username):
+            user = [user for user in self.users if user['usernamename'] == usernamename]
+            if user:
+                return user
+            return None
